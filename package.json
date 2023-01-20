@@ -1,0 +1,27 @@
+{
+	"name": "amx-ui",
+	"version": "0.0.1",
+	"scripts": {
+		"rollup": "rollup -c --bundleConfigAsCjs"
+	},
+	"author": "Rodrigo Garcia",
+	"license": "MIT",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^24.0.0",
+		"@rollup/plugin-node-resolve": "^15.0.1",
+		"@rollup/plugin-typescript": "^11.0.0",
+		"@types/react": "^18.0.27",
+		"prettier": "^2.8.3",
+		"prettier-plugin-tailwindcss": "^0.2.1",
+		"react": "^18.2.0",
+		"rollup": "^3.10.1",
+		"rollup-plugin-dts": "^5.1.1",
+		"typescript": "^4.9.4"
+	},
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"files": [
+		"dist"
+	],
+	"types": "dist/index.d.ts"
+}
